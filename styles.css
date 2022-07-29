@@ -5,11 +5,13 @@ html{
 body{
     background-color: bisque ;
 }
-
+/* center everything including image */
 header{
     text-align: center;
     margin: auto;
+    height:150px;
 }
+
 img {
      display: block;
      margin-left: auto;
@@ -17,7 +19,7 @@ img {
      width: 50%;
      border-radius: 10%;
 }
-/* style for the whole middle portion of the content, everything centered */
+
 main{
     display: block;
     margin-left: auto;
@@ -39,7 +41,7 @@ margin: 10%;
 }
 
 
-
+/*  All list styles */
 ul{
     list-style: circle;
 }
@@ -51,6 +53,7 @@ h2{
   
 p{
 line-height: 30px;
+    font-size:17px;
 }
 footer ul{
     list-style: none;
@@ -60,7 +63,7 @@ width:70%;
 padding-left: 100px;
 
 }
-
+/* style for all links */
 a{
     text-decoration: none;
     color: black;
@@ -69,5 +72,5 @@ a{
 a:hover {
     text-decoration: underline;
     color: red;
-    transform: rotate(180deg) ;
+   
 }
