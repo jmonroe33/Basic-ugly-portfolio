@@ -41,16 +41,20 @@ margin: 10%;
 }
 
 
-/*  All list styles */
-ul{
-    list-style: circle;
+/*  All ol list styles */
+ol{
+    list-style: lower-greek;
 }
 
-/* i want all h2's to be in the center */
+/* i want all h2's and h3's to be in the center */
 h2{
     text-align: center;
   }
-  
+  h3{
+      text-align: center;
+      padding-bottom: 10px;
+}
+/* all paragraph styles */
 p{
 line-height: 30px;
     font-size:17px;
